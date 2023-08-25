@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.homeContainer {
+    width: 100%;
+    padding: 1.75rem 4% ;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.homeContainer .userProfile {
+    flex-basis: 24%;
+}
+
+.homeContainer .userPosts {
+    flex-basis: 46%;
+}
+
+.homeContainer .friendsList{
+    flex-basis: 24%;
+}
+
+@media screen and (max-width : 1000px) {
+    .homeContainer {
+        display: block;
+    }
+
+    .homeContainer .userProfile {
+        flex-basis: 0;
+    }
+
+    .homeContainer .userPosts{
+        flex-basis: 0;
+        margin-top: 50px;
+    }
+
+    .homeContainer .friendsList{
+        flex-basis: 0;
+        margin-top: 50px;
+    }
+
+}

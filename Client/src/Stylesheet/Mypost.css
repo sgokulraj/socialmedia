@@ -1,0 +1,72 @@
+.mypostContainer {
+    padding: 1.5rem 1.5rem 0.75rem 1.5rem;
+    border-radius: 0.75rem;
+    background-color: rgb(178, 186, 193);
+}
+
+.postInput {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.3rem;
+}
+
+.postInput .postUserImgContainer {
+    width: 50px;
+    height: 50px;
+}
+
+.postInput .postUserImg {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.postInput .userPost{
+    width: 100%;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 1rem 2rem;
+}
+
+.uploadImg{
+    border:  1px solid black;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-top: 1rem; 
+}
+
+.dropContainerpost{
+    border: 2px dashed balck;
+    padding: 1rem;
+    width: 100%;
+}
+
+.dropContainerpost:hover{
+    cursor: pointer;
+}
+
+.attachmentIcon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon{
+    gap: 5px;
+}
+.postBtn{
+    background-color: rgb(68, 152, 255);
+    color: black;
+    border-radius: 10px;
+    padding: 5px 10px;
+    border: transparent;
+}
+
+.icon .icontext{
+    margin-bottom: 0;
+}
+
+.mediaIcon{
+    cursor: pointer;
+}

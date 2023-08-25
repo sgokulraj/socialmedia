@@ -1,0 +1,20 @@
+.profilepage .profileContainer {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1.5rem 3%;
+    width: 100%;
+}
+
+@media screen and (max-width : 800px) {
+    .profilepage .profileContainer {
+        display: block;
+    }
+}
+
+ .profileContainer .userProfile{
+    flex-basis: 24%;
+}
+.profileContainer .profilePost{
+    flex-basis: 46%;
+}

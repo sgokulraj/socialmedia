@@ -1,0 +1,38 @@
+.friendsContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.frndImgContainer{
+    width: 50px;
+    height: 50px;
+}
+
+.frndImgContainer img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.friendsInfo h5{
+    font-size: 16px !important;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+/* .friendsInfo h5:hover{
+    cursor: pointer;
+} */
+
+.friendsInfo p{
+    color: rgb(97, 93, 93);
+    margin-bottom: 0;
+
+}
+
+.frndIcon{
+    font-size: 20px;
+    cursor: pointer;
+}

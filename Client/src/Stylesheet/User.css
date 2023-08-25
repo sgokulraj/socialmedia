@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.userContainer {
+    padding: 1.5rem 1.5rem 0.75rem 1.5rem;
+    border-radius: 0.75rem;
+    background-color: rgb(178, 186, 193);
+}
+
+.userDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 5px;
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.profileImg {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* .nameContianer:hover {
+    cursor: pointer;
+} */
+
+.nameContianer h4 {
+    font-weight: 500;
+}
+
+.nameContianer p {
+    color: rgb(97, 93, 93);
+}
+
+/* .infoDiv {
+    /* padding: 20px 0px; */
+ 
+
+.infoDiv .locationInfo {
+    display: flex;
+    /* align-items: center; */
+    gap: 5px;
+    /* margin-bottom: 5px; */
+}
+
+.viewDiv {
+    padding: 5px 0;
+}
+
+.viewDiv .impressions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
